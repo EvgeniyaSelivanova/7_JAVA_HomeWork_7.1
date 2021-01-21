@@ -13,9 +13,9 @@ import static org.junit.jupiter.api.Assertions.*;
 class StatisticsServiceTest {
     private static Stream<Arguments> Incomes() {
         return Stream.of(
-                Arguments.of("Test1", new long[]{12, 5, 8, 4, 5, 3, 8, 6, 11, 11, 12}, 12),
-                Arguments.of("Coverage 100%", new long[]{1, 5, 8, 4, 5, 3, 8, 6, 11, 11, 12}, 12),
-                Arguments.of("NullTest", new long[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, 0)
+                Arguments.of("Test1", new long[]{12, 5, 8, 4, 5, 3, 8, 6, 11, 11, 12}, 12)
+//                Arguments.of("Coverage 100%", new long[]{1, 5, 8, 4, 5, 3, 8, 6, 11, 11, 12}, 12),
+//                Arguments.of("NullTest", new long[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, 0)
         );
     }
 
